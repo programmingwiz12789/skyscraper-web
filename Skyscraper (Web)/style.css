@@ -1,0 +1,134 @@
+#gameArea {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    background-color: white;
+}
+
+#gameBoard {
+    position: relative;
+    float: left;
+    width: 36%;
+    height: 80%;
+    top: 10%;
+    left: 30%;
+}
+
+#board {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-collapse: collapse;
+}
+
+#board tr td {
+    position: relative;
+    width: 16.67%;
+    height: 16.67%;
+}
+
+td:has(.corner) {
+    background-color: transparent;
+    border: none;
+}
+
+td:has(.count) {
+    background-color: white;
+    border: 1px solid black
+}
+
+td:has(.cell) {
+    background-color: silver;
+    border: 1px solid black
+}
+
+.corner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.count {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    font-size: 350%;
+    font-weight: bold;
+    color: blue;
+    text-align: center;
+    border-color: transparent;
+}
+
+.cell {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    font-size: 350%;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    border-color: transparent;
+}
+
+#game-settings {
+    position: relative;
+    float: right;
+    width: 13%;
+    height: 40%;
+    top: 7.3%;
+    right: 20%;
+}
+
+#startBtn {
+    position: relative;
+    width: 63%;
+    height: 45%;
+    top: 15%;
+    left: 50%;
+    font-size: 243%;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+
+#restartBtn {
+    position: relative;
+    width: 63%;
+    height: 45%;
+    top: 17%;
+    left: 50%;
+    font-size: 160%;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+
+#randomBtn {
+    position: relative;
+    width: 63%;
+    height: 45%;
+    top: 19%;
+    left: 50%;
+    font-size: 138%;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+
+#solveBtn {
+    position: relative;
+    width: 63%;
+    height: 45%;
+    top: 21%;
+    left: 50%;
+    font-size: 205%;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
